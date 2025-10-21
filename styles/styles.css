@@ -102,8 +102,6 @@ section {
 .active {
   display: block;
   
-  
-}
 @-webkit-keyframes scaleAnim {
   0% {
     transform: translateY(-100%) scaleY(0);

@@ -715,23 +715,7 @@ section {
     font-size: 3.5rem;
   }
 
-  /* === MOBILE NAV STYLES === */
-  .burger-btn {
-    position: static;
-    bottom: 20px;
-    right: 20px;
-    width: 56px;
-    height: 56px;
-    background-color: var(--color-secondary);
-    color: white;
-    border-radius: 50%;
-    font-size: 1.8rem;
-    text-align: center;
-    line-height: 56px;
-    z-index: 9999;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    text-decoration: none;
-  }
+  
 
   .close-btn {
     display: none;
@@ -790,9 +774,9 @@ section {
 .burger-btn {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  width: 56px;
-  height: 56px;
+  right: 3%;
+  width: 50px;
+  height: 50px;
   background-color: var(--color-secondary);
   color: white;
   border-radius: 50%;

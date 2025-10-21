@@ -717,7 +717,7 @@ section {
 
   /* === MOBILE NAV STYLES === */
   .burger-btn {
-    position: fixed;
+    position: static;
     bottom: 20px;
     right: 20px;
     width: 56px;

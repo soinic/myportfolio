@@ -140,7 +140,7 @@ section {
   position: fixed;
   z-index: 10;
   top: 50%;
-  right: 0;
+  right: 1vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,6 +222,8 @@ section {
 }
 
 
+
+
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 90%;
@@ -237,6 +239,7 @@ section {
      object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
+  
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);

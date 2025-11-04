@@ -501,7 +501,7 @@ section {
   transform: scale(0);
   transition: all 0.4s ease-in-out;
 }
-.portfolios .portfolio-item .hover-items h3 {
+.portfolios .portfolio-item .hover-items h4 {
   font-size: 1.5rem;
   text-align: center;
   color: var(--color-white);
@@ -630,6 +630,8 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+
+
 
 /*Independent Component*/
 .btn-con {

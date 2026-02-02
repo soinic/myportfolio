@@ -635,8 +635,11 @@ section {
 
 /*Independent Component*/
 .btn-con {
-  display: flex;
+
   align-self: flex-start;
+  display: inline-flex;
+  white-space: nowrap;
+ 
 }
 
 .main-btn {
@@ -964,6 +967,7 @@ section {
   .section {
     padding: 7rem 3rem;
   }
+  
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
   }
